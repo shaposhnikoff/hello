@@ -7,7 +7,7 @@ app.get('/from/:name', function (req, res) {
               .split('-')
               .join(' ');
               
-  res.send('hello world, from ' + name);
+  res.send('happy birthday gavin, have a great day mate all the best. from everyone at triptease and ' + name);
 
 })
  
