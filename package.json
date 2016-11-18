@@ -1,0 +1,23 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"nothing to see here!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philwhiteuk/hello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philwhiteuk/hello/issues"
+  },
+  "homepage": "https://github.com/philwhiteuk/hello#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

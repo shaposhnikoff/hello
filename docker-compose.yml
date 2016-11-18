@@ -1,0 +1,6 @@
+hello_world_app:
+  build: .
+  ports:
+    - "80:80"
+  environment:
+    - PORT=80
