@@ -1,7 +1,7 @@
 def pipeline
 node {
 	ws {
-		git url: 'https://github.com/triptease/groovy.git', credentialsId: '34e4fcf0-3fbc-44a3-8342-0a823bf18483', changelog: false, poll: false
+		git url: 'https://github.com/shaposhnikoff/test.git', credentialsId: '34e4fcf0-3fbc-44a3-8342-0a823bf18483', changelog: false, poll: false
 		pipeline = load 'workflows/docker-kubernetes.groovy'
 	}
 }
